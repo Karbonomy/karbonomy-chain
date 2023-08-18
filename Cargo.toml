@@ -1,10 +1,9 @@
 [workspace]
+resolver = "2"
 members = [
-    "node",
-    "pallets/template",
-    "pallets/kitties",
-    "pallets/dapp-store",
-    "runtime",
+    'node',
+    'runtime',
 ]
+
 [profile.release]
-panic = "unwind"
+panic = 'unwind'
